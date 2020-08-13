@@ -1,4 +1,5 @@
 $gridlist-prefix-sizes: xs sm md lg;
+$max-columns: 12;
 
 .o-container {
   margin: 0 auto;
@@ -40,6 +41,6 @@ $gridlist-prefix-sizes: xs sm md lg;
 
 @each $current in $gridlist-prefix-sizes {
   @include mediaquery($current) {
-    @include column($current, 12);
+    @include column($current, $max-columns);
   }
 }

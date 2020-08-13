@@ -15,6 +15,10 @@ This project, contains:
 - ✔️ eslint
 - ✔️ Webpack + babel + BrowserSync
 
+## 🎨 SCSS - GUIDE - Utility CSS
+
+- [📚 Read this Guide - How to use Utility CSS classes on this project](src/styles/STYLES_HOW_TO_USE.md)
+
 ## 🛠️ Install dependencies
 
 ```bash
