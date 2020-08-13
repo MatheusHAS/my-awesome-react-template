@@ -19,6 +19,8 @@ This project, contains:
 
 - [📚 Read this Guide - How to use Utility CSS classes on this project](src/styles/STYLES_HOW_TO_USE.md)
 
+![Grid system example](doc-images/homepage-example.png)
+
 ## 🛠️ Install dependencies
 
 ```bash

@@ -10,3 +10,12 @@ $components-prefix: 'c-homepage';
   background-color: $color-primary;
   background-position: center center;
 }
+
+$color-example-grid: #3a4a4a;
+$color-example-bg: #ede9dd;
+
+.__u-grid-example {
+  background-color: $color-example-bg;
+  color: $color-example-grid;
+  border: 1px solid $color-example-grid;
+}
