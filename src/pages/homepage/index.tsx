@@ -19,7 +19,11 @@ const HomePage = () => {
           </div>
           <div className={oRowClassList.join(' ')}>
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((colNumber) => (
-              <Column sizes={{ xs: 1, sm: 1, md: 1 }} key={colNumber} classList={exampleBoxClasses}>
+              <Column
+                sizes={{ xs: 1, sm: 1, md: 1 }}
+                key={colNumber}
+                classList={['u-tc', 'u-pd-0', 'u-pd-12@sm', 'u-mt-8', 'u-mb-8', '__u-grid-example']}
+              >
                 {colNumber}
               </Column>
             ))}
