@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --progress --colors",
-    "build": "node_modules/.bin/webpack --config webpack.prod.js --mode production",
+    "build": "node_modules/.bin/webpack --config webpack.config.js --mode production",
     "eslint": "./node_modules/.bin/eslint src",
     "tests": "jest",
     "tests:watch": "jest --watch"
