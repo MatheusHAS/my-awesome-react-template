@@ -2,6 +2,10 @@
 
 > Disclaimer: This project was developed without the help of create-react-app.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c16823a-5790-4ae8-bae3-ad133b7cbb17/deploy-status)](https://app.netlify.com/sites/my-awesome-react-template/deploys)
+
+## [✨ Click here to visit this project on netlify](https://my-awesome-react-template.netlify.app/)
+
 ## 🚀 Ready for use
 
 This project, contains:
